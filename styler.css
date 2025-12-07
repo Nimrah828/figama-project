@@ -94,8 +94,6 @@ display: flex;
     width: 45%;
     position: relative;
 }
-
-/* Soft Blue Overlay Filter */
 .hero-right::after {
     content: "";
     position: absolute;
@@ -204,9 +202,6 @@ margin: 700px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(4px);
 }
-
-
-/* MAIN SECTION */
 .services-section {
     padding: 80px 60px;
     text-align: center;
@@ -219,17 +214,13 @@ margin: 700px;
     color: #0d1b3d;
     margin-bottom: 40px;
 }
-
-/* GRID: 2 ROW × 2 COLUMN */
 .services-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 columns */
-    gap: 30px; /* Space between cards */
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
     max-width: 900px;
     margin: auto;
 }
-
-/* CARD */
 .service-card {
     background: #fff;
     padding: 30px;
@@ -240,8 +231,6 @@ margin: 700px;
     position: relative;
     transition: 0.3s;
 }
-
-/* ICON */
 .service-card .icon {
     width: 45px;
     height: 45px;
@@ -255,13 +244,10 @@ margin: 700px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(4px);
 }
-/* HOVER EFFECT */
 .service-card:hover {
     transform: translateY(-6px);
     box-shadow: 0px 12px 35px rgba(0,0,0,0.12);
 }
-
-/* TEXT STYLE */
 .service-card h3 {
     font-size: 20px;
     color: #0d1b3d;
@@ -272,10 +258,6 @@ margin: 700px;
     font-size: 15px;
     color: #526380;
     line-height: 22px;
-}
-.footer-logo {
-    font-size: 40px;
-    font-weight: 700;
 }
 .image1{
     border-radius: 20px;
@@ -292,7 +274,6 @@ margin: 700px;
 .picbox{
     width: 1000px;
     height: 300px;
-    
  box-shadow: 0px 12px 35px rgba(0,0,0,0.12);
  margin-left: 200px;
  margin-right: 200px;
@@ -303,7 +284,7 @@ margin: 700px;
     text-align: center;
     font-size: 32px;
     font-weight: 700;
-    color: #0b1b3f; /* dark navy blue */
+    color: #0b1b3f; 
     line-height: 1.4;
     max-width: 750px;
     margin: 60px auto 40px;
@@ -322,10 +303,18 @@ margin: 700px;
     margin-top: -80px;
     margin-right: 80px; 
 }
+.blur-circle {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    background: radial-gradient(circle, #4b87ff 0%, transparent 70%);
+    filter: blur(60px);
+    opacity: 0.55;
+}
 .card1{
     width: 1020px;
     height: 500px;
-    border: 2px solid black ;
+    box-shadow: 0px 12px 35px rgba(0,0,0,0.12);
     margin-top: 100px;
       background: linear-gradient(#7BABDB,#FFFFFF);
       margin-left: 170px;
@@ -373,14 +362,6 @@ margin: 700px;
   margin-top: -250px; 
    box-shadow: 0px 12px 35px rgba(0,0,0,0.12);
 }
-.blur-circle {
-    position: absolute;
-    width: 300px;
-    height: 200px;
-    background: radial-gradient(circle, #4b87ff 0%, transparent 70%);
-    filter: blur(60px);
-    opacity: 0.55;
-}
 .contact-left{
     margin-top: 200px;
     margin-left: -150px;
@@ -395,8 +376,6 @@ margin: 700px;
     gap: 15px;
     max-width: 450px;
 }
-
-/* Each card */
 .info-card {
     background: #fff;
     padding: 18px;
@@ -408,11 +387,10 @@ margin: 700px;
     gap: 15px;
 }
 
-/* Blue icon box */
 .icon-box {
     width: 45px;
     height: 45px;
-    background: #0b5fc8; /* Blue */
+    background: #0b5fc8; 
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -420,8 +398,6 @@ margin: 700px;
     color: white;
     font-size: 22px;
 }
-
-/* Card text */
 .info-card h3 {
     margin: 0;
     font-size: 17px;
@@ -472,16 +448,15 @@ margin: 700px;
 
 .contact-form input:focus,
 .contact-form textarea:focus {
-    border-color: #187bcd; /* light blue border */
+    border-color: #187bcd; 
 }
-
 .contact-form textarea {
     height: 120px;
     resize: none;
 }
 
 .submit-btn {
-    background: #0b1f3a; /* dark blue */
+    background: #0b1f3a; 
     color: #fff;
     border: none;
     width: 100%;
